@@ -1,0 +1,2568 @@
+> Starting dev server...
+ DONE  Compiled successfully in 10045ms09:59:39
+
+> Listening at http://localhost:8188
+
+ WAIT  Compiling...11:21:30
+
+ DONE  Compiled successfully in 818ms11:21:31
+
+ WAIT  Compiling...11:23:27
+
+ DONE  Compiled successfully in 707ms11:23:28
+
+ WAIT  Compiling...11:25:52
+
+ DONE  Compiled successfully in 960ms11:25:53
+
+ WAIT  Compiling...11:35:58
+
+ DONE  Compiled successfully in 1132ms11:35:59
+
+ WAIT  Compiling...14:58:57
+
+ DONE  Compiled successfully in 899ms14:58:58
+
+ WAIT  Compiling...14:59:18
+
+ DONE  Compiled successfully in 898ms14:59:20
+
+ WAIT  Compiling...14:59:53
+
+ ERROR  Failed to compile with 1 errors14:59:53
+
+ error  in ./src/components/application/Hello.vue
+
+Syntax Error: Unexpected token, expected , (184:16)
+
+  182 |                 end_date: '2017-03-09',
+  183 |                 bill_type: ''
+> 184 |                 amount: '29500',
+      |                 ^
+  185 |                 bamount: '29500',
+  186 |                 kjnd: '2017',
+  187 |                 kjqj: '02',
+
+
+
+ @ ./src/components/application/Hello.vue 8:2-113
+ @ ./src/router/index.js
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...15:00:13
+
+ ERROR  Failed to compile with 1 errors15:00:14
+
+ error  in ./src/components/application/Hello.vue
+
+Syntax Error: Unexpected token, expected , (184:16)
+
+  182 |                 end_date: '2017-03-09',
+  183 |                 bill_type: 'ALL'
+> 184 |                 amount: '29500',
+      |                 ^
+  185 |                 bamount: '29500',
+  186 |                 kjnd: '2017',
+  187 |                 kjqj: '02',
+
+
+
+ @ ./src/components/application/Hello.vue 8:2-113
+ @ ./src/router/index.js
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...15:00:49
+
+ DONE  Compiled successfully in 973ms15:00:51
+
+ WAIT  Compiling...15:01:07
+
+ DONE  Compiled successfully in 645ms15:01:08
+
+ WAIT  Compiling...15:01:19
+
+ DONE  Compiled successfully in 931ms15:01:20
+
+ WAIT  Compiling...15:01:59
+
+ DONE  Compiled successfully in 1004ms15:02:00
+
+ WAIT  Compiling...15:02:31
+
+ DONE  Compiled successfully in 622ms15:02:31
+
+ WAIT  Compiling...15:03:15
+
+ DONE  Compiled successfully in 479ms15:03:15
+
+ WAIT  Compiling...15:03:38
+
+ DONE  Compiled successfully in 957ms15:03:39
+
+ WAIT  Compiling...15:03:54
+
+ DONE  Compiled successfully in 1121ms15:03:55
+
+ WAIT  Compiling...15:04:54
+
+ DONE  Compiled successfully in 972ms15:04:56
+
+ WAIT  Compiling...15:05:49
+
+ DONE  Compiled successfully in 380ms15:05:50
+
+ WAIT  Compiling...15:22:29
+
+ ERROR  Failed to compile with 1 errors15:22:30
+
+ error  in ./src/components/application/Hello.vue
+
+Syntax Error: Unexpected token (52:10)
+
+  50 |              name: '全部状态',
+  51 |              code:
+> 52 |           }, '待审批', '已通过', '未通过', '暂存'],
+     |           ^
+  53 |           showindex: '0'
+  54 |         }
+  55 |     },
+
+
+
+ @ ./src/components/application/Hello.vue 8:2-113
+ @ ./src/router/index.js
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...15:23:47
+
+ DONE  Compiled successfully in 1090ms15:23:48
+
+ WAIT  Compiling...15:24:11
+
+ DONE  Compiled successfully in 764ms15:24:12
+
+ WAIT  Compiling...15:24:44
+
+ DONE  Compiled successfully in 920ms15:24:45
+
+ WAIT  Compiling...15:25:03
+
+ DONE  Compiled successfully in 802ms15:25:04
+
+ WAIT  Compiling...15:36:07
+
+ DONE  Compiled successfully in 729ms15:36:08
+
+ WAIT  Compiling...15:36:08
+
+ DONE  Compiled successfully in 827ms15:36:09
+
+ WAIT  Compiling...15:45:26
+
+ DONE  Compiled successfully in 588ms15:45:27
+
+ WAIT  Compiling...15:46:15
+
+ DONE  Compiled successfully in 572ms15:46:16
+
+ WAIT  Compiling...15:51:14
+
+ DONE  Compiled successfully in 600ms15:51:15
+
+ WAIT  Compiling...15:51:36
+
+ DONE  Compiled successfully in 400ms15:51:36
+
+ WAIT  Compiling...16:28:02
+
+ ERROR  Failed to compile with 1 errors16:28:03
+
+ error  in ./src/components/application/listItem.vue
+
+
+  ✘  http://eslint.org/docs/rules/no-unused-vars  'info' is assigned a value but never used    
+  src/components/application/listItem.vue:17:14
+           let info = this.$state.
+                ^
+
+  ✘  http://eslint.org/docs/rules/dot-location    Expected dot to be on same line as property  
+  src/components/application/listItem.vue:17:32
+           let info = this.$state.
+                                  ^
+
+
+✘ 2 problems (2 errors, 0 warnings)
+
+
+Errors:
+  1  http://eslint.org/docs/rules/dot-location
+  1  http://eslint.org/docs/rules/no-unused-vars
+
+ @ ./~/.7.1.2@babel-loader/lib!./~/.12.2.2@vue-loader/lib/selector.js?type=script&index=0!./src/components/application/selectDate.vue 17:0-57
+ @ ./src/components/application/selectDate.vue
+ @ ./src/router/index.js
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...16:28:14
+
+ ERROR  Failed to compile with 1 errors16:28:14
+
+ error  in ./src/components/application/listItem.vue
+
+
+  ✘  http://eslint.org/docs/rules/no-unused-vars  'info' is assigned a value but never used    
+  src/components/application/listItem.vue:17:14
+           let info = this.$store.
+                ^
+
+  ✘  http://eslint.org/docs/rules/dot-location    Expected dot to be on same line as property  
+  src/components/application/listItem.vue:17:32
+           let info = this.$store.
+                                  ^
+
+
+✘ 2 problems (2 errors, 0 warnings)
+
+
+Errors:
+  1  http://eslint.org/docs/rules/dot-location
+  1  http://eslint.org/docs/rules/no-unused-vars
+
+ @ ./~/.7.1.2@babel-loader/lib!./~/.12.2.2@vue-loader/lib/selector.js?type=script&index=0!./src/components/application/selectDate.vue 17:0-57
+ @ ./src/components/application/selectDate.vue
+ @ ./src/router/index.js
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...16:30:15
+
+ ERROR  Failed to compile with 1 errors16:30:15
+
+ error  in ./src/components/application/listItem.vue
+
+
+  ✘  http://eslint.org/docs/rules/no-unused-vars      'info' is assigned a value but never used  
+  src/components/application/listItem.vue:17:14
+           let info = this.$store.state.approval
+                ^
+
+  ✘  http://eslint.org/docs/rules/no-trailing-spaces  Trailing spaces not allowed                
+  src/components/application/listItem.vue:18:1
+            
+   ^
+
+
+✘ 2 problems (2 errors, 0 warnings)
+
+
+Errors:
+  1  http://eslint.org/docs/rules/no-trailing-spaces
+  1  http://eslint.org/docs/rules/no-unused-vars
+
+ @ ./~/.7.1.2@babel-loader/lib!./~/.12.2.2@vue-loader/lib/selector.js?type=script&index=0!./src/components/application/selectDate.vue 17:0-57
+ @ ./src/components/application/selectDate.vue
+ @ ./src/router/index.js
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...16:30:35
+
+ DONE  Compiled successfully in 473ms16:30:36
+
+ WAIT  Compiling...16:31:22
+
+ DONE  Compiled successfully in 941ms16:31:23
+
+ WAIT  Compiling...16:36:09
+
+ DONE  Compiled successfully in 1289ms16:36:11
+
+ WAIT  Compiling...16:38:23
+
+ DONE  Compiled successfully in 1349ms16:38:25
+
+ WAIT  Compiling...16:40:37
+
+ ERROR  Failed to compile with 1 errors16:40:38
+
+ error  in ./src/components/application/Hello.vue
+
+
+  ✘  http://eslint.org/docs/rules/no-trailing-spaces  Trailing spaces not allowed  
+  src/components/application/Hello.vue:197:1
+              
+   ^
+
+
+✘ 1 problem (1 error, 0 warnings)
+
+
+Errors:
+  1  http://eslint.org/docs/rules/no-trailing-spaces
+
+ @ ./src/router/index.js 3:0-51
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...16:46:22
+
+ ERROR  Failed to compile with 1 errors16:46:22
+
+ error  in ./src/components/application/Hello.vue
+
+
+  ✘  http://eslint.org/docs/rules/space-before-blocks  Missing space before opening brace  
+  src/components/application/Hello.vue:198:39
+              if (res.data.flag === '0'){
+                                         ^
+
+
+✘ 1 problem (1 error, 0 warnings)
+
+
+Errors:
+  1  http://eslint.org/docs/rules/space-before-blocks
+
+ @ ./src/router/index.js 3:0-51
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...16:52:31
+
+ DONE  Compiled successfully in 1036ms16:52:32
+
+ WAIT  Compiling...16:53:31
+
+ DONE  Compiled successfully in 785ms16:53:32
+
+ WAIT  Compiling...16:56:59
+
+ DONE  Compiled successfully in 1145ms16:57:00
+
+ WAIT  Compiling...17:00:31
+
+ DONE  Compiled successfully in 928ms17:00:32
+
+ WAIT  Compiling...17:00:49
+
+ DONE  Compiled successfully in 754ms17:00:50
+
+ WAIT  Compiling...17:01:11
+
+ DONE  Compiled successfully in 842ms17:01:12
+
+ WAIT  Compiling...17:01:50
+
+ DONE  Compiled successfully in 671ms17:01:51
+
+ WAIT  Compiling...17:02:24
+
+ DONE  Compiled successfully in 803ms17:02:25
+
+ WAIT  Compiling...17:05:00
+
+ ERROR  Failed to compile with 1 errors17:05:00
+
+ error  in ./src/components/application/Hello.vue
+
+
+  ✘  http://eslint.org/docs/rules/no-unused-vars  'dateArr' is assigned a value but never used  
+  src/components/application/Hello.vue:207:17
+              let dateArr = date.splice('-')
+                   ^
+
+
+✘ 1 problem (1 error, 0 warnings)
+
+
+Errors:
+  1  http://eslint.org/docs/rules/no-unused-vars
+
+ @ ./src/router/index.js 3:0-51
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...17:05:29
+
+ ERROR  Failed to compile with 1 errors17:05:30
+
+ error  in ./src/components/application/Hello.vue
+
+
+  ✘  http://eslint.org/docs/rules/no-unused-vars      'dateArr' is assigned a value but never used  
+  src/components/application/Hello.vue:207:17
+              let dateArr = date.splice('-')
+                   ^
+
+  ✘  http://eslint.org/docs/rules/no-trailing-spaces  Trailing spaces not allowed                   
+  src/components/application/Hello.vue:208:1
+              
+   ^
+
+  ✘  http://eslint.org/docs/rules/padded-blocks       Block must not be padded by blank lines       
+  src/components/application/Hello.vue:209:9
+          }
+           ^
+
+
+✘ 3 problems (3 errors, 0 warnings)
+
+
+Errors:
+  1  http://eslint.org/docs/rules/padded-blocks
+  1  http://eslint.org/docs/rules/no-trailing-spaces
+  1  http://eslint.org/docs/rules/no-unused-vars
+
+ @ ./src/router/index.js 3:0-51
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...17:09:26
+
+ DONE  Compiled successfully in 631ms17:09:27
+
+ WAIT  Compiling...17:10:02
+
+ ERROR  Failed to compile with 1 errors17:10:03
+
+ error  in ./src/components/application/Hello.vue
+
+Syntax Error: Unexpected token (201:31)
+
+  199 |             if (res.data.flag === '0') {
+  200 |                 this.appList = res.data.data.list
+> 201 |                 forEach(app in )
+      |                                ^
+  202 |             } else {
+  203 |                 this.appList = []
+  204 |             }
+
+
+
+ @ ./src/components/application/Hello.vue 8:2-113
+ @ ./src/router/index.js
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...17:11:58
+
+ DONE  Compiled successfully in 722ms17:11:59
+
+ WAIT  Compiling...17:12:46
+
+ DONE  Compiled successfully in 1167ms17:12:47
+
+ WAIT  Compiling...17:14:09
+
+ DONE  Compiled successfully in 779ms17:14:10
+
+ WAIT  Compiling...17:15:14
+
+ ERROR  Failed to compile with 1 errors17:15:15
+
+ error  in ./src/components/application/Hello.vue
+
+
+  ✘  http://eslint.org/docs/rules/space-infix-ops  Infix operators must be spaced  
+  src/components/application/Hello.vue:204:88
+                      this.appList[i].user_count = this.appList[i].user_count === '' ? 1 :this.appList[i].user_count
+                                                                                          ^
+
+
+✘ 1 problem (1 error, 0 warnings)
+
+
+Errors:
+  1  http://eslint.org/docs/rules/space-infix-ops
+
+ @ ./src/router/index.js 3:0-51
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...17:15:24
+
+ DONE  Compiled successfully in 654ms17:15:25
+
+ WAIT  Compiling...17:24:14
+
+ DONE  Compiled successfully in 842ms17:24:15
+
+ WAIT  Compiling...17:25:14
+
+ DONE  Compiled successfully in 621ms17:25:15
+
+ WAIT  Compiling...17:26:52
+
+ DONE  Compiled successfully in 678ms17:26:53
+
+ WAIT  Compiling...17:30:54
+
+ DONE  Compiled successfully in 903ms17:30:55
+
+ WAIT  Compiling...17:34:32
+
+ ERROR  Failed to compile with 1 errors17:34:33
+
+ error  in ./src/components/application/Hello.vue
+
+
+  ✘  http://eslint.org/docs/rules/keyword-spacing      Expected space(s) after "for"       
+  src/components/application/Hello.vue:212:13
+              for(let i =1;i<this.statusList.length;i++){
+               ^
+
+  ✘  http://eslint.org/docs/rules/space-infix-ops      Infix operators must be spaced      
+  src/components/application/Hello.vue:212:23
+              for(let i =1;i<this.statusList.length;i++){
+                         ^
+
+  ✘  http://eslint.org/docs/rules/semi-spacing         Missing whitespace after semicolon  
+  src/components/application/Hello.vue:212:25
+              for(let i =1;i<this.statusList.length;i++){
+                           ^
+
+  ✘  http://eslint.org/docs/rules/space-infix-ops      Infix operators must be spaced      
+  src/components/application/Hello.vue:212:27
+              for(let i =1;i<this.statusList.length;i++){
+                             ^
+
+  ✘  http://eslint.org/docs/rules/semi-spacing         Missing whitespace after semicolon  
+  src/components/application/Hello.vue:212:50
+              for(let i =1;i<this.statusList.length;i++){
+                                                    ^
+
+  ✘  http://eslint.org/docs/rules/space-before-blocks  Missing space before opening brace  
+  src/components/application/Hello.vue:212:55
+              for(let i =1;i<this.statusList.length;i++){
+                                                         ^
+
+
+✘ 6 problems (6 errors, 0 warnings)
+
+
+Errors:
+  2  http://eslint.org/docs/rules/semi-spacing
+  2  http://eslint.org/docs/rules/space-infix-ops
+  1  http://eslint.org/docs/rules/space-before-blocks
+  1  http://eslint.org/docs/rules/keyword-spacing
+
+ @ ./src/router/index.js 3:0-51
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...17:35:44
+
+ DONE  Compiled successfully in 857ms17:35:45
+
+ WAIT  Compiling...17:36:00
+
+ ERROR  Failed to compile with 1 errors17:36:01
+
+ error  in ./src/components/application/Hello.vue
+
+Syntax Error: Unexpected token (206:16)
+
+  204 |                     this.appList[i].user_count = this.appList[i].user_count === '' ? 1 : this.appList[i].user_count
+  205 |                     this.appList[i].
+> 206 |                 }
+      |                 ^
+  207 |             } else {
+  208 |                 this.appList = []
+  209 |             }
+
+
+
+ @ ./src/components/application/Hello.vue 8:2-113
+ @ ./src/router/index.js
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...17:36:11
+
+ DONE  Compiled successfully in 1029ms17:36:12
+
+ WAIT  Compiling...17:38:59
+
+ DONE  Compiled successfully in 960ms17:39:00
+
+ WAIT  Compiling...17:39:19
+
+ DONE  Compiled successfully in 1026ms17:39:20
+
+ WAIT  Compiling...18:08:51
+
+ DONE  Compiled successfully in 632ms18:08:52
+
+ WAIT  Compiling...18:10:37
+
+ ERROR  Failed to compile with 1 errors18:10:38
+
+ error  in ./src/components/application/Hello.vue
+
+Syntax Error: Unterminated string constant (222:33)
+
+  220 |         timeFormatter(date) {
+  221 |             if (!date) return ''
+> 222 |             let reg = new RegExp('\')
+      |                                  ^
+  223 |             let dateArr = date.split('-')
+  224 |             return dateArr[1] + '月' + dateArr[2] + '日'
+  225 |         },
+
+
+
+ @ ./src/components/application/Hello.vue 8:2-113
+ @ ./src/router/index.js
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...18:11:32
+
+ ERROR  Failed to compile with 1 errors18:11:33
+
+ error  in ./src/components/application/Hello.vue
+
+
+  ✘  http://eslint.org/docs/rules/no-unused-vars      'reg' is assigned a value but never used  
+  src/components/application/Hello.vue:222:17
+              let reg = new RegExp('0\d')
+                   ^
+
+  ✘  http://eslint.org/docs/rules/no-useless-escape   Unnecessary escape character: \d          
+  src/components/application/Hello.vue:222:36
+              let reg = new RegExp('0\d')
+                                      ^
+
+  ✘  http://eslint.org/docs/rules/no-trailing-spaces  Trailing spaces not allowed               
+  src/components/application/Hello.vue:223:1
+              
+   ^
+
+
+✘ 3 problems (3 errors, 0 warnings)
+
+
+Errors:
+  1  http://eslint.org/docs/rules/no-trailing-spaces
+  1  http://eslint.org/docs/rules/no-useless-escape
+  1  http://eslint.org/docs/rules/no-unused-vars
+
+ @ ./src/router/index.js 3:0-51
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...18:12:41
+
+ ERROR  Failed to compile with 1 errors18:12:42
+
+ error  in ./src/components/application/Hello.vue
+
+
+  ✘  http://eslint.org/docs/rules/no-unused-vars     'reg' is assigned a value but never used  
+  src/components/application/Hello.vue:222:17
+              let reg = new RegExp('0\d')
+                   ^
+
+  ✘  http://eslint.org/docs/rules/no-useless-escape  Unnecessary escape character: \d          
+  src/components/application/Hello.vue:222:36
+              let reg = new RegExp('0\d')
+                                      ^
+
+
+✘ 2 problems (2 errors, 0 warnings)
+
+
+Errors:
+  1  http://eslint.org/docs/rules/no-useless-escape
+  1  http://eslint.org/docs/rules/no-unused-vars
+
+ @ ./src/router/index.js 3:0-51
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...18:12:59
+
+ ERROR  Failed to compile with 1 errors18:13:00
+
+ error  in ./src/components/application/Hello.vue
+
+
+  ✘  http://eslint.org/docs/rules/no-useless-escape  Unnecessary escape character: \d  
+  src/components/application/Hello.vue:222:36
+              let reg = new RegExp('0\d')
+                                      ^
+
+
+✘ 1 problem (1 error, 0 warnings)
+
+
+Errors:
+  1  http://eslint.org/docs/rules/no-useless-escape
+
+ @ ./src/router/index.js 3:0-51
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...18:14:13
+
+ DONE  Compiled successfully in 917ms18:14:14
+
+ WAIT  Compiling...18:14:44
+
+ DONE  Compiled successfully in 1000ms18:14:45
+
+ WAIT  Compiling...18:14:59
+
+ DONE  Compiled successfully in 1037ms18:15:00
+
+ WAIT  Compiling...18:16:49
+
+ ERROR  Failed to compile with 1 errors18:16:50
+
+ error  in ./src/components/application/Hello.vue
+
+Syntax Error: Unexpected token (224:16)
+
+  222 |             let reg = new RegExp('0.*')
+  223 |             let dateArr = date.split('-')
+> 224 |             if ()
+      |                 ^
+  225 |             return dateArr[1] + '月' + dateArr[2] + '日'
+  226 |         },
+  227 |         makeGroup(list) {}
+
+
+
+ @ ./src/components/application/Hello.vue 8:2-113
+ @ ./src/router/index.js
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+> Starting dev server...
+ ERROR  Failed to compile with 1 errors09:59:44
+
+ error  in ./src/components/application/Hello.vue
+
+Syntax Error: Unexpected token (224:16)
+
+  222 |             let reg = new RegExp('0.*')
+  223 |             let dateArr = date.split('-')
+> 224 |             if ()
+      |                 ^
+  225 |             return dateArr[1] + '月' + dateArr[2] + '日'
+  226 |         },
+  227 |         makeGroup(list) {}
+
+
+
+ @ ./src/components/application/Hello.vue 8:2-113
+ @ ./src/router/index.js
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+> Listening at http://localhost:8188
+
+ WAIT  Compiling...10:05:29
+
+ ERROR  Failed to compile with 1 errors10:05:32
+
+ error  in ./src/components/application/Hello.vue
+
+
+  ✘  http://eslint.org/docs/rules/no-trailing-spaces  Trailing spaces not allowed  
+  src/components/application/Hello.vue:225:1
+                  
+   ^
+
+
+✘ 1 problem (1 error, 0 warnings)
+
+
+Errors:
+  1  http://eslint.org/docs/rules/no-trailing-spaces
+
+ @ ./src/router/index.js 3:0-51
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...10:07:18
+
+ DONE  Compiled successfully in 1635ms10:07:19
+
+ WAIT  Compiling...10:08:09
+
+ DONE  Compiled successfully in 1054ms10:08:11
+
+ WAIT  Compiling...10:10:06
+
+ DONE  Compiled successfully in 1044ms10:10:08
+
+ WAIT  Compiling...10:16:55
+
+ DONE  Compiled successfully in 1345ms10:16:57
+
+ WAIT  Compiling...10:18:58
+
+ DONE  Compiled successfully in 689ms10:18:59
+
+ WAIT  Compiling...10:22:13
+
+ ERROR  Failed to compile with 1 errors10:22:15
+
+ error  in ./src/components/application/Hello.vue
+
+
+  ✘  http://eslint.org/docs/rules/no-unused-vars  'res' is assigned a value but never used  
+  src/components/application/Hello.vue:217:25
+                      let res = {
+                           ^
+
+
+✘ 1 problem (1 error, 0 warnings)
+
+
+Errors:
+  1  http://eslint.org/docs/rules/no-unused-vars
+
+ @ ./src/router/index.js 3:0-51
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...10:23:39
+
+ DONE  Compiled successfully in 750ms10:23:40
+
+ WAIT  Compiling...10:25:32
+
+ DONE  Compiled successfully in 1097ms10:25:33
+
+ WAIT  Compiling...10:25:51
+
+ DONE  Compiled successfully in 1033ms10:25:52
+
+ WAIT  Compiling...10:29:33
+
+ DONE  Compiled successfully in 974ms10:29:34
+
+ WAIT  Compiling...10:31:42
+
+ DONE  Compiled successfully in 788ms10:31:43
+
+ WAIT  Compiling...10:32:11
+
+ DONE  Compiled successfully in 581ms10:32:12
+
+ WAIT  Compiling...10:33:26
+
+ DONE  Compiled successfully in 1147ms10:33:27
+
+ WAIT  Compiling...10:33:49
+
+ DONE  Compiled successfully in 757ms10:33:50
+
+ WAIT  Compiling...10:37:48
+
+ ERROR  Failed to compile with 1 errors10:37:49
+
+ error  in ./src/components/application/Hello.vue
+
+Syntax Error: Unexpected token, expected , (262:8)
+
+  260 |             return ''
+  261 |         }
+> 262 |         makeGroup(list) {}
+      |         ^
+  263 |     },
+  264 |     created: function() {
+  265 |         // this.getmess()
+
+
+
+ @ ./src/components/application/Hello.vue 8:2-113
+ @ ./src/router/index.js
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...10:38:53
+
+ ERROR  Failed to compile with 2 errors10:38:53
+
+ error  in ./src/components/application/Hello.vue
+
+Syntax Error: Unexpected token, expected , (263:8)
+
+  261 |             return ''
+  262 |         }
+> 263 |         makeGroup(list) {}
+      |         ^
+  264 |     },
+  265 |     created: function() {
+  266 |         // this.getmess()
+
+
+
+ @ ./src/components/application/Hello.vue 8:2-113
+ @ ./src/router/index.js
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ error  in ./src/components/application/Hello.vue
+
+Syntax Error: Unexpected token (55:6)
+
+
+ @ ./src/components/application/Hello.vue 10:2-322
+ @ ./src/router/index.js
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...10:39:06
+
+ ERROR  Failed to compile with 1 errors10:39:07
+
+ error  in ./src/components/application/Hello.vue
+
+Syntax Error: Unexpected token, expected , (263:8)
+
+  261 |             return ''
+  262 |         }
+> 263 |         makeGroup(list) {}
+      |         ^
+  264 |     },
+  265 |     created: function() {
+  266 |         // this.getmess()
+
+
+
+ @ ./src/components/application/Hello.vue 8:2-113
+ @ ./src/router/index.js
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...10:39:19
+
+ ERROR  Failed to compile with 1 errors10:39:20
+
+ error  in ./src/components/application/Hello.vue
+
+
+  ✘  http://eslint.org/docs/rules/comma-spacing  A space is required after ','  
+  src/components/application/Hello.vue:76:14
+              },{
+                ^
+
+
+✘ 1 problem (1 error, 0 warnings)
+
+
+Errors:
+  1  http://eslint.org/docs/rules/comma-spacing
+
+ @ ./src/router/index.js 3:0-51
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...10:39:46
+
+ DONE  Compiled successfully in 1099ms10:39:47
+
+ WAIT  Compiling...10:40:49
+
+ DONE  Compiled successfully in 1145ms10:40:50
+
+ WAIT  Compiling...10:42:26
+
+ ERROR  Failed to compile with 1 errors10:42:27
+
+ error  in ./src/components/application/Hello.vue
+
+
+  ✘  http://eslint.org/docs/rules/comma-spacing  A space is required after ','  
+  src/components/application/Hello.vue:256:31
+              console.log('type',type)
+                                 ^
+
+
+✘ 1 problem (1 error, 0 warnings)
+
+
+Errors:
+  1  http://eslint.org/docs/rules/comma-spacing
+
+ @ ./src/router/index.js 3:0-51
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...10:42:33
+
+ DONE  Compiled successfully in 699ms10:42:33
+
+ WAIT  Compiling...10:43:35
+
+ DONE  Compiled successfully in 1001ms10:43:36
+
+ WAIT  Compiling...10:43:53
+
+ DONE  Compiled successfully in 848ms10:43:54
+
+ WAIT  Compiling...11:03:52
+
+ ERROR  Failed to compile with 1 errors11:03:52
+
+ error  in ./src/components/application/Hello.vue
+
+Syntax Error: Unexpected token, expected ( (269:8)
+
+  267 |             const timeSet = new Set()
+  268 |             for
+> 269 |         }
+      |         ^
+  270 |     },
+  271 |     created: function() {
+  272 |         // this.getmess()
+
+
+
+ @ ./src/components/application/Hello.vue 8:2-113
+ @ ./src/router/index.js
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...11:04:30
+
+ ERROR  Failed to compile with 1 errors11:04:31
+
+ error  in ./src/components/application/Hello.vue
+
+Syntax Error: Unexpected token, expected ( (270:8)
+
+  268 |             const timeSet = new Set()
+  269 |             for
+> 270 |         }
+      |         ^
+  271 |     },
+  272 |     created: function() {
+  273 |         // this.getmess()
+
+
+
+ @ ./src/components/application/Hello.vue 8:2-113
+ @ ./src/router/index.js
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...11:06:09
+
+ ERROR  Failed to compile with 1 errors11:06:10
+
+ error  in ./src/components/application/Hello.vue
+
+Syntax Error: Unexpected token (269:16)
+
+  267 |         makeGroup(list) {
+  268 |             const timeSet = new Set()
+> 269 |             for()
+      |                 ^
+  270 |         }
+  271 |     },
+  272 |     created: function() {
+
+
+
+ @ ./src/components/application/Hello.vue 8:2-113
+ @ ./src/router/index.js
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...11:14:09
+
+ ERROR  Failed to compile with 1 errors11:14:11
+
+ error  in ./src/components/application/Hello.vue
+
+
+  ✘  http://eslint.org/docs/rules/no-multi-spaces  Multiple spaces found before 'date'           
+  src/components/application/Hello.vue:257:21
+              return  date.split('-')
+                       ^
+
+  ✘  http://eslint.org/docs/rules/no-unused-vars   'timeSet' is assigned a value but never used  
+  src/components/application/Hello.vue:268:19
+              const timeSet = new Set()
+                     ^
+
+  ✘  http://eslint.org/docs/rules/keyword-spacing  Expected space(s) after "for"                 
+  src/components/application/Hello.vue:269:13
+              for(let i of this.appList) {
+               ^
+
+
+✘ 3 problems (3 errors, 0 warnings)
+
+
+Errors:
+  1  http://eslint.org/docs/rules/keyword-spacing
+  1  http://eslint.org/docs/rules/no-unused-vars
+  1  http://eslint.org/docs/rules/no-multi-spaces
+
+ @ ./src/router/index.js 3:0-51
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...11:14:25
+
+ ERROR  Failed to compile with 1 errors11:14:26
+
+ error  in ./src/components/application/Hello.vue
+
+
+  ✘  http://eslint.org/docs/rules/no-multi-spaces  Multiple spaces found before 'date'  
+  src/components/application/Hello.vue:257:21
+              return  date.split('-')
+                       ^
+
+  ✘  http://eslint.org/docs/rules/keyword-spacing  Expected space(s) after "for"        
+  src/components/application/Hello.vue:270:13
+              for(let i of this.appList) {
+               ^
+
+
+✘ 2 problems (2 errors, 0 warnings)
+
+
+Errors:
+  1  http://eslint.org/docs/rules/keyword-spacing
+  1  http://eslint.org/docs/rules/no-multi-spaces
+
+ @ ./src/router/index.js 3:0-51
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...11:14:43
+
+ DONE  Compiled successfully in 772ms11:14:44
+
+ WAIT  Compiling...11:15:13
+
+ DONE  Compiled successfully in 1181ms11:15:15
+
+ WAIT  Compiling...11:16:47
+
+ ERROR  Failed to compile with 1 errors11:16:48
+
+ error  in ./src/components/application/Hello.vue
+
+
+  ✘  http://eslint.org/docs/rules/no-unused-vars  'yearSet' is assigned a value but never used  
+  src/components/application/Hello.vue:269:19
+              const yearSet = new Set()
+                     ^
+
+  ✘  http://eslint.org/docs/rules/no-undef        'timeSet' is not defined                      
+  src/components/application/Hello.vue:270:13
+              timeSet.add(1)
+               ^
+
+  ✘  http://eslint.org/docs/rules/no-undef        'timeSet' is not defined                      
+  src/components/application/Hello.vue:272:17
+                  timeSet.add(i.groupBy[0])
+                   ^
+
+
+✘ 3 problems (3 errors, 0 warnings)
+
+
+Errors:
+  2  http://eslint.org/docs/rules/no-undef
+  1  http://eslint.org/docs/rules/no-unused-vars
+
+ @ ./src/router/index.js 3:0-51
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...11:20:25
+
+ DONE  Compiled successfully in 807ms11:20:26
+
+ WAIT  Compiling...11:22:38
+
+ DONE  Compiled successfully in 1022ms11:22:39
+
+ WAIT  Compiling...11:22:55
+
+ DONE  Compiled successfully in 922ms11:22:56
+
+ WAIT  Compiling...11:23:19
+
+ DONE  Compiled successfully in 1354ms11:23:21
+
+ WAIT  Compiling...11:24:04
+
+ DONE  Compiled successfully in 1003ms11:24:05
+
+ WAIT  Compiling...11:29:51
+
+ ERROR  Failed to compile with 1 errors11:29:52
+
+ error  in ./src/components/application/Hello.vue
+
+
+  ✘  http://eslint.org/docs/rules/no-unused-vars      'i' is assigned a value but never used  
+  src/components/application/Hello.vue:286:22
+              for (let i of timeSet) {
+                        ^
+
+  ✘  http://eslint.org/docs/rules/no-trailing-spaces  Trailing spaces not allowed             
+  src/components/application/Hello.vue:287:1
+                  
+   ^
+
+
+✘ 2 problems (2 errors, 0 warnings)
+
+
+Errors:
+  1  http://eslint.org/docs/rules/no-trailing-spaces
+  1  http://eslint.org/docs/rules/no-unused-vars
+
+ @ ./src/router/index.js 3:0-51
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...11:37:13
+
+ DONE  Compiled successfully in 801ms11:37:14
+
+ WAIT  Compiling...11:37:30
+
+ DONE  Compiled successfully in 662ms11:37:31
+
+ WAIT  Compiling...11:41:12
+
+ DONE  Compiled successfully in 1288ms11:41:13
+
+ WAIT  Compiling...11:49:37
+
+ DONE  Compiled successfully in 1163ms11:49:38
+
+ WAIT  Compiling...11:49:51
+
+ DONE  Compiled successfully in 1004ms11:49:52
+
+ WAIT  Compiling...11:51:25
+
+ DONE  Compiled successfully in 938ms11:51:26
+
+ WAIT  Compiling...11:55:37
+
+ DONE  Compiled successfully in 961ms11:55:39
+
+ WAIT  Compiling...13:24:27
+
+ DONE  Compiled successfully in 1048ms13:24:29
+
+ WAIT  Compiling...13:28:40
+
+ DONE  Compiled successfully in 1217ms13:28:42
+
+ WAIT  Compiling...13:33:08
+
+ DONE  Compiled successfully in 882ms13:33:09
+
+ WAIT  Compiling...13:40:40
+
+ DONE  Compiled successfully in 789ms13:40:41
+
+ WAIT  Compiling...13:41:20
+
+ DONE  Compiled successfully in 371ms13:41:20
+
+ WAIT  Compiling...13:52:54
+
+ ERROR  Failed to compile with 1 errors13:52:54
+
+ error  in ./src/components/application/Hello.vue
+
+Syntax Error: Unexpected token (199:40)
+
+  197 |             let params = {
+  198 |                 user_id: this.$store.state.userInfo.user_id,
+> 199 |                 begin_date: this.$store.,
+      |                                         ^
+  200 |                 end_date: '2017-03-09',
+  201 |                 bill_type: '264X-wangbao5',
+  202 |                 method: 'getList',
+
+
+
+ @ ./src/components/application/Hello.vue 8:2-113
+ @ ./src/router/index.js
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...13:53:26
+
+ DONE  Compiled successfully in 1203ms13:53:27
+
+ WAIT  Compiling...13:54:21
+
+ DONE  Compiled successfully in 1031ms13:54:23
+
+ WAIT  Compiling...13:54:32
+
+ DONE  Compiled successfully in 753ms13:54:33
+
+ WAIT  Compiling...13:58:20
+
+ DONE  Compiled successfully in 942ms13:58:22
+
+ WAIT  Compiling...13:58:56
+
+ DONE  Compiled successfully in 1052ms13:58:57
+
+ WAIT  Compiling...14:02:37
+
+ DONE  Compiled successfully in 1166ms14:02:39
+
+ WAIT  Compiling...14:56:04
+
+ DONE  Compiled successfully in 1269ms14:56:06
+
+ WAIT  Compiling...14:56:39
+
+ DONE  Compiled successfully in 1293ms14:56:40
+
+ WAIT  Compiling...14:57:00
+
+ ERROR  Failed to compile with 1 errors14:57:01
+
+ error  in ./src/components/application/Hello.vue
+
+
+  ✘  http://eslint.org/docs/rules/space-infix-ops  Infix operators must be spaced  
+  src/components/application/Hello.vue:227:32
+                  this.renderList= []
+                                  ^
+
+
+✘ 1 problem (1 error, 0 warnings)
+
+
+Errors:
+  1  http://eslint.org/docs/rules/space-infix-ops
+
+ @ ./src/router/index.js 3:0-51
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...14:57:12
+
+ DONE  Compiled successfully in 1195ms14:57:13
+
+ WAIT  Compiling...14:58:19
+
+ DONE  Compiled successfully in 1231ms14:58:21
+
+ WAIT  Compiling...14:58:51
+
+ DONE  Compiled successfully in 1050ms14:58:52
+
+ WAIT  Compiling...14:59:41
+
+ DONE  Compiled successfully in 774ms14:59:42
+
+ WAIT  Compiling...15:00:06
+
+ DONE  Compiled successfully in 874ms15:00:07
+
+ WAIT  Compiling...15:00:26
+
+ DONE  Compiled successfully in 1336ms15:00:27
+
+ WAIT  Compiling...15:23:37
+
+ ERROR  Failed to compile with 1 errors15:23:39
+
+ error  in ./src/main.js
+
+
+  ✘  http://eslint.org/docs/rules/semi  Extra semicolon  
+  src/main.js:15:14
+  Vue.use(YDUI);
+                ^
+
+
+✘ 1 problem (1 error, 0 warnings)
+
+
+Errors:
+  1  http://eslint.org/docs/rules/semi
+
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...15:25:15
+
+ ERROR  Failed to compile with 1 errors15:25:16
+
+ error  in ./src/main.js
+
+
+  ✘  http://eslint.org/docs/rules/semi  Extra semicolon  
+  src/main.js:15:14
+  Vue.use(YDUI);
+                ^
+
+
+✘ 1 problem (1 error, 0 warnings)
+
+
+Errors:
+  1  http://eslint.org/docs/rules/semi
+
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...15:25:44
+
+ DONE  Compiled successfully in 626ms15:25:45
+
+ WAIT  Compiling...15:35:48
+
+ DONE  Compiled successfully in 582ms15:35:49
+
+ WAIT  Compiling...15:38:43
+
+ DONE  Compiled successfully in 394ms15:38:43
+
+ WAIT  Compiling...15:42:14
+
+ DONE  Compiled successfully in 774ms15:42:15
+
+ WAIT  Compiling...15:43:21
+
+ DONE  Compiled successfully in 672ms15:43:22
+
+ WAIT  Compiling...15:43:29
+
+ DONE  Compiled successfully in 400ms15:43:29
+
+ WAIT  Compiling...15:49:08
+
+ DONE  Compiled successfully in 482ms15:49:09
+
+ WAIT  Compiling...15:49:37
+
+ DONE  Compiled successfully in 531ms15:49:38
+
+ WAIT  Compiling...15:50:34
+
+ ERROR  Failed to compile with 1 errors15:50:35
+
+ error  in ./src/components/application/selectDate.vue
+
+
+  ✘  http://eslint.org/docs/rules/space-infix-ops  Infix operators must be spaced  
+  src/components/application/selectDate.vue:60:92
+              return date.getFullYear() + '-' + (date.getMonth() + 1) + '-' + (date.getDate()-date.getDay()+1)
+                                                                                              ^
+
+  ✘  http://eslint.org/docs/rules/space-infix-ops  Infix operators must be spaced  
+  src/components/application/selectDate.vue:60:106
+              return date.getFullYear() + '-' + (date.getMonth() + 1) + '-' + (date.getDate()-date.getDay()+1)
+                                                                                                            ^
+
+
+✘ 2 problems (2 errors, 0 warnings)
+
+
+Errors:
+  2  http://eslint.org/docs/rules/space-infix-ops
+
+ @ ./src/router/index.js 23:17-64
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...15:50:52
+
+ DONE  Compiled successfully in 597ms15:50:53
+
+ WAIT  Compiling...15:51:07
+
+ DONE  Compiled successfully in 747ms15:51:07
+
+ WAIT  Compiling...15:51:26
+
+ DONE  Compiled successfully in 866ms15:51:27
+
+ WAIT  Compiling...16:00:13
+
+ DONE  Compiled successfully in 504ms16:00:13
+
+ WAIT  Compiling...16:02:20
+
+ DONE  Compiled successfully in 1320ms16:02:22
+
+ WAIT  Compiling...16:02:35
+
+ DONE  Compiled successfully in 220ms16:02:36
+
+ WAIT  Compiling...16:02:44
+
+ DONE  Compiled successfully in 431ms16:02:45
+
+ WAIT  Compiling...16:04:37
+
+ DONE  Compiled successfully in 623ms16:04:38
+
+ WAIT  Compiling...16:04:38
+
+ DONE  Compiled successfully in 560ms16:04:39
+
+ WAIT  Compiling...16:05:00
+
+ DONE  Compiled successfully in 707ms16:05:01
+
+ WAIT  Compiling...16:10:03
+
+ DONE  Compiled successfully in 763ms16:10:04
+
+ WAIT  Compiling...16:19:10
+
+ DONE  Compiled successfully in 737ms16:19:11
+
+ WAIT  Compiling...16:31:41
+
+ DONE  Compiled successfully in 723ms16:31:42
+
+ WAIT  Compiling...16:31:59
+
+ DONE  Compiled successfully in 697ms16:32:00
+
+ WAIT  Compiling...16:46:00
+
+ DONE  Compiled successfully in 476ms16:46:00
+
+ WAIT  Compiling...16:48:39
+
+ DONE  Compiled successfully in 841ms16:48:40
+
+ WAIT  Compiling...16:49:00
+
+ DONE  Compiled successfully in 694ms16:49:01
+
+ WAIT  Compiling...16:50:11
+
+ DONE  Compiled successfully in 1055ms16:50:13
+
+ WAIT  Compiling...16:51:20
+
+ DONE  Compiled successfully in 1046ms16:51:22
+
+ WAIT  Compiling...16:51:33
+
+ DONE  Compiled successfully in 657ms16:51:34
+
+ WAIT  Compiling...16:53:24
+
+ DONE  Compiled successfully in 1423ms16:53:26
+
+ WAIT  Compiling...16:54:26
+
+ DONE  Compiled successfully in 449ms16:54:26
+
+ WAIT  Compiling...16:58:45
+
+ DONE  Compiled successfully in 666ms16:58:46
+
+ WAIT  Compiling...17:00:57
+
+ DONE  Compiled successfully in 524ms17:00:58
+
+ WAIT  Compiling...17:04:34
+
+ DONE  Compiled successfully in 1345ms17:04:36
+
+ WAIT  Compiling...17:05:15
+
+ DONE  Compiled successfully in 1254ms17:05:17
+
+ WAIT  Compiling...17:16:26
+
+ DONE  Compiled successfully in 1170ms17:16:27
+
+ WAIT  Compiling...17:18:19
+
+ DONE  Compiled successfully in 1135ms17:18:20
+
+ WAIT  Compiling...17:20:12
+
+ DONE  Compiled successfully in 939ms17:20:13
+
+ WAIT  Compiling...17:21:25
+
+ DONE  Compiled successfully in 965ms17:21:26
+
+ WAIT  Compiling...17:22:04
+
+ DONE  Compiled successfully in 547ms17:22:05
+
+ WAIT  Compiling...17:23:03
+
+ DONE  Compiled successfully in 636ms17:23:04
+
+ WAIT  Compiling...17:23:26
+
+ DONE  Compiled successfully in 621ms17:23:27
+
+ WAIT  Compiling...17:54:36
+
+ ERROR  Failed to compile with 1 errors17:54:37
+
+ error  in ./src/components/application/selectDate.vue
+
+Syntax Error: Unexpected token (45:4)
+
+
+ @ ./src/components/application/selectDate.vue 10:2-327
+ @ ./src/router/index.js
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...17:55:20
+
+ DONE  Compiled successfully in 773ms17:55:21
+
+ WAIT  Compiling...17:55:37
+
+ DONE  Compiled successfully in 555ms17:55:38
+
+ WAIT  Compiling...17:55:41
+
+ DONE  Compiled successfully in 602ms17:55:41
+
+ WAIT  Compiling...17:56:18
+
+ DONE  Compiled successfully in 790ms17:56:19
+
+ WAIT  Compiling...17:58:37
+
+ DONE  Compiled successfully in 632ms17:58:38
+
+ WAIT  Compiling...17:59:01
+
+ DONE  Compiled successfully in 651ms17:59:02
+
+ WAIT  Compiling...18:00:27
+
+ DONE  Compiled successfully in 579ms18:00:28
+
+ WAIT  Compiling...18:01:37
+
+ DONE  Compiled successfully in 600ms18:01:38
+
+> Starting dev server...
+ WARNING  Compiled with 1 warnings09:57:25
+
+ warning  in ./src/components/fund/receipt.vue
+
+(Emitted value instead of an instance of Error) <receiptItem v-for="item in app.item_list">: component lists rendered with v-for should have explicit keys. See https://vuejs.org/guide/list.html#key for more info.
+
+ @ ./src/components/fund/receipt.vue 10:2-324
+ @ ./src/router/index.js
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+> Listening at http://localhost:8188
+
+ WAIT  Compiling...10:11:18
+
+ WARNING  Compiled with 1 warnings10:11:19
+
+ warning  in ./src/components/fund/receipt.vue
+
+(Emitted value instead of an instance of Error) <receiptItem v-for="item in app.item_list">: component lists rendered with v-for should have explicit keys. See https://vuejs.org/guide/list.html#key for more info.
+
+ @ ./src/components/fund/receipt.vue 10:2-324
+ @ ./src/router/index.js
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...10:11:31
+
+ WARNING  Compiled with 1 warnings10:11:32
+
+ warning  in ./src/components/fund/receipt.vue
+
+(Emitted value instead of an instance of Error) <receiptItem v-for="item in app.item_list">: component lists rendered with v-for should have explicit keys. See https://vuejs.org/guide/list.html#key for more info.
+
+ @ ./src/components/fund/receipt.vue 10:2-324
+ @ ./src/router/index.js
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...10:20:45
+
+ WARNING  Compiled with 1 warnings10:20:47
+
+ warning  in ./src/components/fund/receipt.vue
+
+(Emitted value instead of an instance of Error) <receiptItem v-for="item in app.item_list">: component lists rendered with v-for should have explicit keys. See https://vuejs.org/guide/list.html#key for more info.
+
+ @ ./src/components/fund/receipt.vue 10:2-324
+ @ ./src/router/index.js
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...10:27:30
+
+ WARNING  Compiled with 1 warnings10:27:31
+
+ warning  in ./src/components/fund/receipt.vue
+
+(Emitted value instead of an instance of Error) <receiptItem v-for="item in app.item_list">: component lists rendered with v-for should have explicit keys. See https://vuejs.org/guide/list.html#key for more info.
+
+ @ ./src/components/fund/receipt.vue 10:2-324
+ @ ./src/router/index.js
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...10:32:40
+
+ WARNING  Compiled with 1 warnings10:32:41
+
+ warning  in ./src/components/fund/receipt.vue
+
+(Emitted value instead of an instance of Error) <receiptItem v-for="item in app.item_list">: component lists rendered with v-for should have explicit keys. See https://vuejs.org/guide/list.html#key for more info.
+
+ @ ./src/components/fund/receipt.vue 10:2-324
+ @ ./src/router/index.js
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...10:34:47
+
+ WARNING  Compiled with 1 warnings10:34:49
+
+ warning  in ./src/components/fund/receipt.vue
+
+(Emitted value instead of an instance of Error) <receiptItem v-for="item in app.item_list">: component lists rendered with v-for should have explicit keys. See https://vuejs.org/guide/list.html#key for more info.
+
+ @ ./src/components/fund/receipt.vue 10:2-324
+ @ ./src/router/index.js
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...10:35:35
+
+ WARNING  Compiled with 1 warnings10:35:36
+
+ warning  in ./src/components/fund/receipt.vue
+
+(Emitted value instead of an instance of Error) <receiptItem v-for="item in app.item_list">: component lists rendered with v-for should have explicit keys. See https://vuejs.org/guide/list.html#key for more info.
+
+ @ ./src/components/fund/receipt.vue 10:2-324
+ @ ./src/router/index.js
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...11:18:22
+
+ WARNING  Compiled with 1 warnings11:18:23
+
+ warning  in ./src/components/fund/receipt.vue
+
+(Emitted value instead of an instance of Error) <receiptItem v-for="item in app.item_list">: component lists rendered with v-for should have explicit keys. See https://vuejs.org/guide/list.html#key for more info.
+
+ @ ./src/components/fund/receipt.vue 10:2-324
+ @ ./src/router/index.js
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...11:18:58
+
+ WARNING  Compiled with 1 warnings11:18:59
+
+ warning  in ./src/components/fund/receipt.vue
+
+(Emitted value instead of an instance of Error) <receiptItem v-for="item in app.item_list">: component lists rendered with v-for should have explicit keys. See https://vuejs.org/guide/list.html#key for more info.
+
+ @ ./src/components/fund/receipt.vue 10:2-324
+ @ ./src/router/index.js
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...11:28:58
+
+ ERROR  Failed to compile with 1 errors11:28:59
+
+ error  in ./src/components/application/addApproval.vue
+
+
+  ✘  http://eslint.org/docs/rules/no-unused-vars      'img' is assigned a value but never used  
+  src/components/application/addApproval.vue:189:17
+              let img = {
+                   ^
+
+  ✘  http://eslint.org/docs/rules/no-trailing-spaces  Trailing spaces not allowed               
+  src/components/application/addApproval.vue:195:3
+              
+     ^
+
+
+✘ 2 problems (2 errors, 0 warnings)
+
+
+Errors:
+  1  http://eslint.org/docs/rules/no-trailing-spaces
+  1  http://eslint.org/docs/rules/no-unused-vars
+
+ @ ./src/router/index.js 33:17-65
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...11:29:32
+
+ ERROR  Failed to compile with 1 errors11:29:33
+
+ error  in ./src/components/application/addApproval.vue
+
+
+  ✘  http://eslint.org/docs/rules/no-unused-vars  'render' is defined but never used        
+  src/components/application/addApproval.vue:189:17
+              let render
+                   ^
+
+  ✘  http://eslint.org/docs/rules/no-unused-vars  'img' is assigned a value but never used  
+  src/components/application/addApproval.vue:190:17
+              let img = {
+                   ^
+
+
+✘ 2 problems (2 errors, 0 warnings)
+
+
+Errors:
+  2  http://eslint.org/docs/rules/no-unused-vars
+
+ @ ./src/router/index.js 33:17-65
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...11:29:39
+
+ ERROR  Failed to compile with 1 errors11:29:40
+
+ error  in ./src/components/application/addApproval.vue
+
+Syntax Error: Unexpected token (190:10)
+
+  188 |           const res = await uploadImg(form)
+  189 |           let reader = new 
+> 190 |           let img = {
+      |           ^
+  191 |               id: res.data.data[0].id,
+  192 |               path: res.data.data[0].path,
+  193 |               name: res.data.data[0].name,
+
+
+
+ @ ./src/components/application/addApproval.vue 8:2-119
+ @ ./src/router/index.js
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...11:29:45
+
+ ERROR  Failed to compile with 1 errors11:29:46
+
+ error  in ./src/components/application/addApproval.vue
+
+
+  ✘  http://eslint.org/docs/rules/no-unused-vars  'reader' is assigned a value but never used  
+  src/components/application/addApproval.vue:189:17
+              let reader = new FileReader()
+                   ^
+
+  ✘  http://eslint.org/docs/rules/no-unused-vars  'img' is assigned a value but never used     
+  src/components/application/addApproval.vue:190:17
+              let img = {
+                   ^
+
+
+✘ 2 problems (2 errors, 0 warnings)
+
+
+Errors:
+  2  http://eslint.org/docs/rules/no-unused-vars
+
+ @ ./src/router/index.js 33:17-65
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...11:30:15
+
+ ERROR  Failed to compile with 1 errors11:30:16
+
+ error  in ./src/components/application/addApproval.vue
+
+
+  ✘  http://eslint.org/docs/rules/no-unused-vars  'img' is assigned a value but never used  
+  src/components/application/addApproval.vue:189:17
+              let img = {
+                   ^
+
+
+✘ 1 problem (1 error, 0 warnings)
+
+
+Errors:
+  1  http://eslint.org/docs/rules/no-unused-vars
+
+ @ ./src/router/index.js 33:17-65
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...11:30:28
+
+ ERROR  Failed to compile with 1 errors11:30:29
+
+ error  in ./src/components/application/addApproval.vue
+
+
+  ✘  http://eslint.org/docs/rules/no-unused-vars      'img' is assigned a value but never used  
+  src/components/application/addApproval.vue:189:17
+              let img = {
+                   ^
+
+  ✘  http://eslint.org/docs/rules/no-trailing-spaces  Trailing spaces not allowed               
+  src/components/application/addApproval.vue:197:3
+                  
+     ^
+
+
+✘ 2 problems (2 errors, 0 warnings)
+
+
+Errors:
+  1  http://eslint.org/docs/rules/no-trailing-spaces
+  1  http://eslint.org/docs/rules/no-unused-vars
+
+ @ ./src/router/index.js 33:17-65
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...11:30:47
+
+ ERROR  Failed to compile with 1 errors11:30:47
+
+ error  in ./src/components/application/addApproval.vue
+
+Syntax Error: Unexpected token (198:10)
+
+  196 |           reader.onloadend = function() {
+  197 |               img.imgsrc =
+> 198 |           }
+      |           ^
+  199 |           this.file_list.push(res.data.data[0])
+  200 |       },
+  201 |       async addApp(isSubmit) {
+
+
+
+ @ ./src/components/application/addApproval.vue 8:2-119
+ @ ./src/router/index.js
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...11:31:09
+
+ WARNING  Compiled with 1 warnings11:31:09
+
+ warning  in ./src/components/fund/receipt.vue
+
+(Emitted value instead of an instance of Error) <receiptItem v-for="item in app.item_list">: component lists rendered with v-for should have explicit keys. See https://vuejs.org/guide/list.html#key for more info.
+
+ @ ./src/components/fund/receipt.vue 10:2-324
+ @ ./src/router/index.js
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...11:31:38
+
+ WARNING  Compiled with 1 warnings11:31:39
+
+ warning  in ./src/components/fund/receipt.vue
+
+(Emitted value instead of an instance of Error) <receiptItem v-for="item in app.item_list">: component lists rendered with v-for should have explicit keys. See https://vuejs.org/guide/list.html#key for more info.
+
+ @ ./src/components/fund/receipt.vue 10:2-324
+ @ ./src/router/index.js
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...11:31:59
+
+ WARNING  Compiled with 1 warnings11:32:01
+
+ warning  in ./src/components/fund/receipt.vue
+
+(Emitted value instead of an instance of Error) <receiptItem v-for="item in app.item_list">: component lists rendered with v-for should have explicit keys. See https://vuejs.org/guide/list.html#key for more info.
+
+ @ ./src/components/fund/receipt.vue 10:2-324
+ @ ./src/router/index.js
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...11:39:42
+
+ WARNING  Compiled with 1 warnings11:39:44
+
+ warning  in ./src/components/fund/receipt.vue
+
+(Emitted value instead of an instance of Error) <receiptItem v-for="item in app.item_list">: component lists rendered with v-for should have explicit keys. See https://vuejs.org/guide/list.html#key for more info.
+
+ @ ./src/components/fund/receipt.vue 10:2-324
+ @ ./src/router/index.js
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...11:43:52
+
+ WARNING  Compiled with 1 warnings11:43:54
+
+ warning  in ./src/components/fund/receipt.vue
+
+(Emitted value instead of an instance of Error) <receiptItem v-for="item in app.item_list">: component lists rendered with v-for should have explicit keys. See https://vuejs.org/guide/list.html#key for more info.
+
+ @ ./src/components/fund/receipt.vue 10:2-324
+ @ ./src/router/index.js
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...11:44:33
+
+ WARNING  Compiled with 1 warnings11:44:35
+
+ warning  in ./src/components/fund/receipt.vue
+
+(Emitted value instead of an instance of Error) <receiptItem v-for="item in app.item_list">: component lists rendered with v-for should have explicit keys. See https://vuejs.org/guide/list.html#key for more info.
+
+ @ ./src/components/fund/receipt.vue 10:2-324
+ @ ./src/router/index.js
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...11:45:05
+
+ WARNING  Compiled with 1 warnings11:45:06
+
+ warning  in ./src/components/fund/receipt.vue
+
+(Emitted value instead of an instance of Error) <receiptItem v-for="item in app.item_list">: component lists rendered with v-for should have explicit keys. See https://vuejs.org/guide/list.html#key for more info.
+
+ @ ./src/components/fund/receipt.vue 10:2-324
+ @ ./src/router/index.js
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...11:45:37
+
+ WARNING  Compiled with 1 warnings11:45:38
+
+ warning  in ./src/components/fund/receipt.vue
+
+(Emitted value instead of an instance of Error) <receiptItem v-for="item in app.item_list">: component lists rendered with v-for should have explicit keys. See https://vuejs.org/guide/list.html#key for more info.
+
+ @ ./src/components/fund/receipt.vue 10:2-324
+ @ ./src/router/index.js
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...11:48:40
+
+ WARNING  Compiled with 1 warnings11:48:42
+
+ warning  in ./src/components/fund/receipt.vue
+
+(Emitted value instead of an instance of Error) <receiptItem v-for="item in app.item_list">: component lists rendered with v-for should have explicit keys. See https://vuejs.org/guide/list.html#key for more info.
+
+ @ ./src/components/fund/receipt.vue 10:2-324
+ @ ./src/router/index.js
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...11:52:54
+
+ ERROR  Failed to compile with 1 errors11:52:55
+
+ error  in ./src/components/application/addApproval.vue
+
+
+  ✘  http://eslint.org/docs/rules/comma-spacing  A space is required after ','  
+  src/components/application/addApproval.vue:202:31
+              console.log('file',this.file_list)
+                                 ^
+
+
+✘ 1 problem (1 error, 0 warnings)
+
+
+Errors:
+  1  http://eslint.org/docs/rules/comma-spacing
+
+ @ ./src/router/index.js 33:17-65
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...11:52:58
+
+ WARNING  Compiled with 1 warnings11:52:59
+
+ warning  in ./src/components/fund/receipt.vue
+
+(Emitted value instead of an instance of Error) <receiptItem v-for="item in app.item_list">: component lists rendered with v-for should have explicit keys. See https://vuejs.org/guide/list.html#key for more info.
+
+ @ ./src/components/fund/receipt.vue 10:2-324
+ @ ./src/router/index.js
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...11:54:03
+
+ WARNING  Compiled with 1 warnings11:54:05
+
+ warning  in ./src/components/fund/receipt.vue
+
+(Emitted value instead of an instance of Error) <receiptItem v-for="item in app.item_list">: component lists rendered with v-for should have explicit keys. See https://vuejs.org/guide/list.html#key for more info.
+
+ @ ./src/components/fund/receipt.vue 10:2-324
+ @ ./src/router/index.js
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...11:55:53
+
+ WARNING  Compiled with 1 warnings11:55:54
+
+ warning  in ./src/components/fund/receipt.vue
+
+(Emitted value instead of an instance of Error) <receiptItem v-for="item in app.item_list">: component lists rendered with v-for should have explicit keys. See https://vuejs.org/guide/list.html#key for more info.
+
+ @ ./src/components/fund/receipt.vue 10:2-324
+ @ ./src/router/index.js
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...11:57:45
+
+ WARNING  Compiled with 1 warnings11:57:46
+
+ warning  in ./src/components/fund/receipt.vue
+
+(Emitted value instead of an instance of Error) <receiptItem v-for="item in app.item_list">: component lists rendered with v-for should have explicit keys. See https://vuejs.org/guide/list.html#key for more info.
+
+ @ ./src/components/fund/receipt.vue 10:2-324
+ @ ./src/router/index.js
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...11:57:57
+
+ WARNING  Compiled with 1 warnings11:57:58
+
+ warning  in ./src/components/fund/receipt.vue
+
+(Emitted value instead of an instance of Error) <receiptItem v-for="item in app.item_list">: component lists rendered with v-for should have explicit keys. See https://vuejs.org/guide/list.html#key for more info.
+
+ @ ./src/components/fund/receipt.vue 10:2-324
+ @ ./src/router/index.js
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...13:06:19
+
+ WARNING  Compiled with 1 warnings13:06:20
+
+ warning  in ./src/components/fund/receipt.vue
+
+(Emitted value instead of an instance of Error) <receiptItem v-for="item in app.item_list">: component lists rendered with v-for should have explicit keys. See https://vuejs.org/guide/list.html#key for more info.
+
+ @ ./src/components/fund/receipt.vue 10:2-324
+ @ ./src/router/index.js
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...13:07:03
+
+ WARNING  Compiled with 1 warnings13:07:04
+
+ warning  in ./src/components/fund/receipt.vue
+
+(Emitted value instead of an instance of Error) <receiptItem v-for="item in app.item_list">: component lists rendered with v-for should have explicit keys. See https://vuejs.org/guide/list.html#key for more info.
+
+ @ ./src/components/fund/receipt.vue 10:2-324
+ @ ./src/router/index.js
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...13:07:16
+
+ WARNING  Compiled with 1 warnings13:07:17
+
+ warning  in ./src/components/fund/receipt.vue
+
+(Emitted value instead of an instance of Error) <receiptItem v-for="item in app.item_list">: component lists rendered with v-for should have explicit keys. See https://vuejs.org/guide/list.html#key for more info.
+
+ @ ./src/components/fund/receipt.vue 10:2-324
+ @ ./src/router/index.js
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...14:11:24
+
+ WARNING  Compiled with 1 warnings14:11:27
+
+ warning  in ./src/components/fund/receipt.vue
+
+(Emitted value instead of an instance of Error) <receiptItem v-for="item in app.item_list">: component lists rendered with v-for should have explicit keys. See https://vuejs.org/guide/list.html#key for more info.
+
+ @ ./src/components/fund/receipt.vue 10:2-324
+ @ ./src/router/index.js
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...14:12:59
+
+ WARNING  Compiled with 1 warnings14:13:01
+
+ warning  in ./src/components/fund/receipt.vue
+
+(Emitted value instead of an instance of Error) <receiptItem v-for="item in app.item_list">: component lists rendered with v-for should have explicit keys. See https://vuejs.org/guide/list.html#key for more info.
+
+ @ ./src/components/fund/receipt.vue 10:2-324
+ @ ./src/router/index.js
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...14:30:32
+
+ WARNING  Compiled with 1 warnings14:30:34
+
+ warning  in ./src/components/fund/receipt.vue
+
+(Emitted value instead of an instance of Error) <receiptItem v-for="item in app.item_list">: component lists rendered with v-for should have explicit keys. See https://vuejs.org/guide/list.html#key for more info.
+
+ @ ./src/components/fund/receipt.vue 10:2-324
+ @ ./src/router/index.js
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...14:31:09
+
+ WARNING  Compiled with 1 warnings14:31:10
+
+ warning  in ./src/components/fund/receipt.vue
+
+(Emitted value instead of an instance of Error) <receiptItem v-for="item in app.item_list">: component lists rendered with v-for should have explicit keys. See https://vuejs.org/guide/list.html#key for more info.
+
+ @ ./src/components/fund/receipt.vue 10:2-324
+ @ ./src/router/index.js
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...14:34:25
+
+ WARNING  Compiled with 1 warnings14:34:26
+
+ warning  in ./src/components/fund/receipt.vue
+
+(Emitted value instead of an instance of Error) <receiptItem v-for="item in app.item_list">: component lists rendered with v-for should have explicit keys. See https://vuejs.org/guide/list.html#key for more info.
+
+ @ ./src/components/fund/receipt.vue 10:2-324
+ @ ./src/router/index.js
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...14:37:00
+
+ WARNING  Compiled with 1 warnings14:37:01
+
+ warning  in ./src/components/fund/receipt.vue
+
+(Emitted value instead of an instance of Error) <receiptItem v-for="item in app.item_list">: component lists rendered with v-for should have explicit keys. See https://vuejs.org/guide/list.html#key for more info.
+
+ @ ./src/components/fund/receipt.vue 10:2-324
+ @ ./src/router/index.js
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...14:41:22
+
+ WARNING  Compiled with 1 warnings14:41:24
+
+ warning  in ./src/components/fund/receipt.vue
+
+(Emitted value instead of an instance of Error) <receiptItem v-for="item in app.item_list">: component lists rendered with v-for should have explicit keys. See https://vuejs.org/guide/list.html#key for more info.
+
+ @ ./src/components/fund/receipt.vue 10:2-324
+ @ ./src/router/index.js
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...14:44:04
+
+ WARNING  Compiled with 1 warnings14:44:05
+
+ warning  in ./src/components/fund/receipt.vue
+
+(Emitted value instead of an instance of Error) <receiptItem v-for="item in app.item_list">: component lists rendered with v-for should have explicit keys. See https://vuejs.org/guide/list.html#key for more info.
+
+ @ ./src/components/fund/receipt.vue 10:2-324
+ @ ./src/router/index.js
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...14:44:12
+
+ WARNING  Compiled with 1 warnings14:44:13
+
+ warning  in ./src/components/fund/receipt.vue
+
+(Emitted value instead of an instance of Error) <receiptItem v-for="item in app.item_list">: component lists rendered with v-for should have explicit keys. See https://vuejs.org/guide/list.html#key for more info.
+
+ @ ./src/components/fund/receipt.vue 10:2-324
+ @ ./src/router/index.js
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...14:44:27
+
+ WARNING  Compiled with 1 warnings14:44:28
+
+ warning  in ./src/components/fund/receipt.vue
+
+(Emitted value instead of an instance of Error) <receiptItem v-for="item in app.item_list">: component lists rendered with v-for should have explicit keys. See https://vuejs.org/guide/list.html#key for more info.
+
+ @ ./src/components/fund/receipt.vue 10:2-324
+ @ ./src/router/index.js
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...14:45:16
+
+ ERROR  Failed to compile with 1 errors14:45:17
+
+ error  in ./src/components/fund/addReceipt.vue
+
+
+  ✘  http://eslint.org/docs/rules/no-unused-vars  'initDate' is assigned a value but never used  
+  src/components/fund/addReceipt.vue:226:17
+              let initDate = date.getFullYear() + '-' + month + '-01'
+                   ^
+
+
+✘ 1 problem (1 error, 0 warnings)
+
+
+Errors:
+  1  http://eslint.org/docs/rules/no-unused-vars
+
+ @ ./src/router/index.js 109:17-57
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...14:45:28
+
+ ERROR  Failed to compile with 1 errors14:45:29
+
+ error  in ./src/components/fund/addReceipt.vue
+
+
+  ✘  http://eslint.org/docs/rules/no-unused-vars  'initDate' is assigned a value but never used  
+  src/components/fund/addReceipt.vue:226:17
+              let initDate = date.getFullYear() + '-' + month + '-01'
+                   ^
+
+
+✘ 1 problem (1 error, 0 warnings)
+
+
+Errors:
+  1  http://eslint.org/docs/rules/no-unused-vars
+
+ @ ./src/router/index.js 109:17-57
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...14:45:50
+
+ WARNING  Compiled with 1 warnings14:45:51
+
+ warning  in ./src/components/fund/receipt.vue
+
+(Emitted value instead of an instance of Error) <receiptItem v-for="item in app.item_list">: component lists rendered with v-for should have explicit keys. See https://vuejs.org/guide/list.html#key for more info.
+
+ @ ./src/components/fund/receipt.vue 10:2-324
+ @ ./src/router/index.js
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...14:46:47
+
+ WARNING  Compiled with 1 warnings14:46:48
+
+ warning  in ./src/components/fund/receipt.vue
+
+(Emitted value instead of an instance of Error) <receiptItem v-for="item in app.item_list">: component lists rendered with v-for should have explicit keys. See https://vuejs.org/guide/list.html#key for more info.
+
+ @ ./src/components/fund/receipt.vue 10:2-324
+ @ ./src/router/index.js
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...14:47:16
+
+ WARNING  Compiled with 1 warnings14:47:18
+
+ warning  in ./src/components/fund/receipt.vue
+
+(Emitted value instead of an instance of Error) <receiptItem v-for="item in app.item_list">: component lists rendered with v-for should have explicit keys. See https://vuejs.org/guide/list.html#key for more info.
+
+ @ ./src/components/fund/receipt.vue 10:2-324
+ @ ./src/router/index.js
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...14:47:39
+
+ WARNING  Compiled with 1 warnings14:47:41
+
+ warning  in ./src/components/fund/receipt.vue
+
+(Emitted value instead of an instance of Error) <receiptItem v-for="item in app.item_list">: component lists rendered with v-for should have explicit keys. See https://vuejs.org/guide/list.html#key for more info.
+
+ @ ./src/components/fund/receipt.vue 10:2-324
+ @ ./src/router/index.js
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...14:48:19
+
+ WARNING  Compiled with 1 warnings14:48:21
+
+ warning  in ./src/components/fund/receipt.vue
+
+(Emitted value instead of an instance of Error) <receiptItem v-for="item in app.item_list">: component lists rendered with v-for should have explicit keys. See https://vuejs.org/guide/list.html#key for more info.
+
+ @ ./src/components/fund/receipt.vue 10:2-324
+ @ ./src/router/index.js
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...14:49:10
+
+ WARNING  Compiled with 1 warnings14:49:11
+
+ warning  in ./src/components/fund/receipt.vue
+
+(Emitted value instead of an instance of Error) <receiptItem v-for="item in app.item_list">: component lists rendered with v-for should have explicit keys. See https://vuejs.org/guide/list.html#key for more info.
+
+ @ ./src/components/fund/receipt.vue 10:2-324
+ @ ./src/router/index.js
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...14:49:31
+
+ WARNING  Compiled with 1 warnings14:49:32
+
+ warning  in ./src/components/fund/receipt.vue
+
+(Emitted value instead of an instance of Error) <receiptItem v-for="item in app.item_list">: component lists rendered with v-for should have explicit keys. See https://vuejs.org/guide/list.html#key for more info.
+
+ @ ./src/components/fund/receipt.vue 10:2-324
+ @ ./src/router/index.js
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...14:52:26
+
+ WARNING  Compiled with 1 warnings14:52:27
+
+ warning  in ./src/components/fund/receipt.vue
+
+(Emitted value instead of an instance of Error) <receiptItem v-for="item in app.item_list">: component lists rendered with v-for should have explicit keys. See https://vuejs.org/guide/list.html#key for more info.
+
+ @ ./src/components/fund/receipt.vue 10:2-324
+ @ ./src/router/index.js
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...14:54:02
+
+ WARNING  Compiled with 1 warnings14:54:04
+
+ warning  in ./src/components/fund/receipt.vue
+
+(Emitted value instead of an instance of Error) <receiptItem v-for="item in app.item_list">: component lists rendered with v-for should have explicit keys. See https://vuejs.org/guide/list.html#key for more info.
+
+ @ ./src/components/fund/receipt.vue 10:2-324
+ @ ./src/router/index.js
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...15:16:05
+
+ WARNING  Compiled with 1 warnings15:16:06
+
+ warning  in ./src/components/fund/receipt.vue
+
+(Emitted value instead of an instance of Error) <receiptItem v-for="item in app.item_list">: component lists rendered with v-for should have explicit keys. See https://vuejs.org/guide/list.html#key for more info.
+
+ @ ./src/components/fund/receipt.vue 10:2-324
+ @ ./src/router/index.js
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...15:16:33
+
+ WARNING  Compiled with 1 warnings15:16:34
+
+ warning  in ./src/components/fund/receipt.vue
+
+(Emitted value instead of an instance of Error) <receiptItem v-for="item in app.item_list">: component lists rendered with v-for should have explicit keys. See https://vuejs.org/guide/list.html#key for more info.
+
+ @ ./src/components/fund/receipt.vue 10:2-324
+ @ ./src/router/index.js
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...15:16:37
+
+ WARNING  Compiled with 1 warnings15:16:38
+
+ warning  in ./src/components/fund/receipt.vue
+
+(Emitted value instead of an instance of Error) <receiptItem v-for="item in app.item_list">: component lists rendered with v-for should have explicit keys. See https://vuejs.org/guide/list.html#key for more info.
+
+ @ ./src/components/fund/receipt.vue 10:2-324
+ @ ./src/router/index.js
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
+ WAIT  Compiling...15:16:47
+
+ WARNING  Compiled with 1 warnings15:16:49
+
+ warning  in ./src/components/fund/receipt.vue
+
+(Emitted value instead of an instance of Error) <receiptItem v-for="item in app.item_list">: component lists rendered with v-for should have explicit keys. See https://vuejs.org/guide/list.html#key for more info.
+
+ @ ./src/components/fund/receipt.vue 10:2-324
+ @ ./src/router/index.js
+ @ ./src/main.js
+ @ multi ./build/dev-client ./src/main.js
+
